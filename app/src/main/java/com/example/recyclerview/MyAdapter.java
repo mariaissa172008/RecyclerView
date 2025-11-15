@@ -43,7 +43,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     }
 
     public MyAdapter(String[] myDataset) {
-
+        this.mDataset = myDataset;
     }
 }
 
